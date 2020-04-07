@@ -3,6 +3,7 @@ module mod-replace
 go 1.12
 
 replace (
+	go.etcd.io/etcd => github.com/etcd-io/etcd v0.0.0-20190720005121-fe86a786a4c3
 	cloud.google.com/go => github.com/googleapis/google-cloud-go v0.37.4
 	golang.org/x/crypto => github.com/golang/crypto v0.0.0-20190513172903-22d7a77e9e5f
 	golang.org/x/exp => github.com/golang/exp v0.0.0-20190718202018-cfdd5522f6f6
